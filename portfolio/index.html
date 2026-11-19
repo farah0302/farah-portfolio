@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nurfarah Adibah | Portfolio</title>
+  <meta name="description" content="Portfolio of Nurfarah Adibah, Bachelor of IT (Hons) student at UTHM, web developer working with PHP, MySQL and JavaScript.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Farah<span>.app</span></a>
+    <nav aria-label="Sections">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div>
+      <!-- <p class="hello">&lt;hello world /&gt;</p> -->
+      <h1>Hi, I&#039;m <em>Nurfarah Adibah</em>.</h1>
+      <p class="role">Web developer, graduating December 2026</p>
+      <p class="pitch">Final-year Bachelor of Information Technology (Hons) student at Universiti Tun Hussein Onn Malaysia. I build responsive websites and the MySQL databases behind them, and I enjoy turning technical problems into tools people can actually use.</p>
+      <div class="cta">
+        <a class="btn btn-solid" href="#projects">See my work</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+    <div class="photo-wrap">
+      <span class="spark a" aria-hidden="true"></span>
+      <span class="spark b" aria-hidden="true"></span>
+      <img class="photo" src="assets/profile-img.jpg" alt="Portrait of Nurfarah Adibah" width="400" height="400">
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <p class="label">// about</p>
+    <h2>Practical, curious, and quick to learn</h2>
+    <div class="about">
+      <div>
+                  <p>I like work where the result is something a real person uses. During my internship I improved live corporate websites so they look consistent and work well on phones, tablets and desktops.</p>
+                  <p>For my final year project I built a Student Management System that schedules classes and assigns teachers automatically, and I managed its MySQL database from design to documentation.</p>
+                <div class="facts">
+                      <div class="fact"><b>3.47</b><span>Current CGPA</span></div>
+                      <div class="fact"><b>Dec 2026</b><span>Expected graduation</span></div>
+                      <div class="fact"><b>Top Coders</b><span>Malaysia 2025, national level</span></div>
+                  </div>
+      </div>
+            <div class="code" aria-label="Quick profile">
+        <div class="code-top" aria-hidden="true"><i></i><i></i><i></i></div>
+<pre><span class="k">const</span> farah = {
+  role:       <span class="k">"Web Developer"</span>,
+  stack:      [<span class="k">"PHP"</span>, <span class="k">"MySQL"</span>, <span class="k">"JavaScript"</span>, <span class="k">"WordPress"</span>],
+  graduates:  <span class="k">"Dec 2026"</span>,
+  lookingFor: <span class="k">"Junior web developer role"</span>,
+  learning:   <span class="k">"always"</span>
+};<span class="cursor" aria-hidden="true"></span></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <p class="label">// experience</p>
+    <h2>Where I've worked and built</h2>
+    <ol class="timeline">
+            <li class="tl">
+        <div class="card">
+          <p class="when">Feb 2026 to Aug 2026</p>
+          <h3>Intern</h3>
+          <p class="org">I Concept Solutions (M) Sdn Bhd</p>
+          <ul>
+            <li>Improved responsive layouts and interface consistency across several corporate websites, so pages work on all screen sizes.</li><li>Worked with the development team to deliver website enhancements and fix technical issues against project requirements.</li><li>Supported production web applications with interface improvements, feature enhancements and system support.</li>          </ul>
+        </div>
+      </li>
+            <li class="tl">
+        <div class="card">
+          <p class="when">Jun 2025 to Jan 2026</p>
+          <h3>Final Year Project: Student Management System</h3>
+          <p class="org">Universiti Tun Hussein Onn Malaysia</p>
+          <ul>
+            <li>Built a Student Management System in PHP and MySQL that automates class scheduling and teacher assignments.</li><li>Designed and managed the MySQL backend, and documented the full system development cycle.</li>          </ul>
+        </div>
+      </li>
+            <li class="tl">
+        <div class="card">
+          <p class="when">Jul 2022 to Sep 2022</p>
+          <h3>Part-time Staff</h3>
+          <p class="org">Hyper Pets Center</p>
+          <ul>
+            <li>Recorded inventory and sales daily in the Point of Sale (POS) system, keeping stock records accurate.</li><li>Trained new staff on the sales system and standard operating procedures.</li>          </ul>
+        </div>
+      </li>
+          </ol>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <p class="label">// projects</p>
+    <h2>Things I've made</h2>
+    <div class="projects">
+            <article class="card proj">
+        <img src="assets/project-sms.svg" alt="Student Management System screenshot" width="640" height="400">
+        <div class="body">
+          <h3>Student Management System</h3>
+          <p>Final year project. A web system that automatically schedules classes and assigns teachers, backed by a MySQL database I designed and documented end to end.</p>
+          <div class="tags"><span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">Auto scheduling</span><span class="tag">System documentation</span></div>
+                  </div>
+      </article>
+            <article class="card proj">
+        <img src="assets/project-intern.svg" alt="Corporate website improvements screenshot" width="640" height="400">
+        <div class="body">
+          <h3>Corporate Website Improvements</h3>
+          <p>Internship work at I Concept Solutions. I improved responsive layouts and interface consistency on several company websites and supported production web applications.</p>
+          <div class="tags"><span class="tag">Responsive design</span><span class="tag">UI consistency</span><span class="tag">Team delivery</span></div>
+                  </div>
+      </article>
+          </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <p class="label">// skills</p>
+    <h2>What I work with</h2>
+    <div class="skills">
+            <div class="card">
+        <h3>Web development</h3>
+        <p class="hint">Intermediate</p>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">PHP</span><span class="tag">WordPress</span></div>
+      </div>
+            <div class="card">
+        <h3>Data</h3>
+        <p class="hint">Intermediate</p>
+        <div class="tags"><span class="tag">MySQL</span><span class="tag">Microsoft Power BI</span></div>
+      </div>
+            <div class="card">
+        <h3>How I work</h3>
+        <p class="hint">Soft skills</p>
+        <div class="tags"><span class="tag">Time management</span><span class="tag">Teamwork</span><span class="tag">Fast learner</span><span class="tag">Strategic thinker</span><span class="tag">Willing to learn</span></div>
+      </div>
+          </div>
+  </section>
+
+  <!-- EDUCATION, LANGUAGES, ACHIEVEMENTS -->
+  <section id="education">
+    <p class="label">// education &amp; more</p>
+    <h2>Learning beyond the classroom</h2>
+    <div class="two">
+      <div class="card">
+        <h3>Education</h3>
+        <ul class="list">
+          <li><b>Bachelor of Information Technology with Honours</b><br>Universiti Tun Hussein Onn Malaysia, Batu Pahat<br><span class="muted">Current CGPA 3.47. Expected graduation December 2026.</span></li>
+        </ul>
+        <h3 class="gap-top">Languages</h3>
+        <div class="langs">
+                      <div class="lang"><span>Malay</span><span>Proficient</span></div>
+                      <div class="lang"><span>English</span><span>Moderate proficiency</span></div>
+                      <div class="lang"><span>Mandarin</span><span>Basic proficiency</span></div>
+                  </div>
+      </div>
+      <div class="card">
+        <h3>Achievements and activities</h3>
+        <ul class="list">
+          <li>Competed in Top Coders Malaysia 2025 (national level)</li><li>Certificate of Completion, Power BI for Beginners</li><li>CISCO certificate</li><li>Certificate, AWANTEC NTW PERCIPIO Program</li><li>Active in SAS Academic Programs for Students (Machine Learning)</li><li>Organised and managed the SULAM Artificial Intelligence and Machine Learning Project</li>        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+        <div class="contact">
+      <p class="label">// contact</p>
+      <h2>Let&#039;s build something together</h2>
+      <p>I&#039;m graduating in December 2026 and looking for a junior web developer role. The quickest way to reach me is email.</p>
+      <div class="email-row">
+        <span class="email" id="email-text">nurfarahadibah0321@gmail.com</span>
+        <button class="btn" id="copy-email" type="button">Copy email</button>
+      </div>
+            <p class="small">Based in Puchong, Selangor. References available on request.</p>
+    </div>
+  </section>
+
+  <footer>&copy; 2026 Nurfarah Adibah Binti Arba&#039;in</footer>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
